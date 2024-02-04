@@ -10,10 +10,10 @@ const CONFIG = {
   MATERY_SHOW_START_READING: false,
 
   // 菜单配置
-  MATERY_MENU_CATEGORY: true, // 显示分类
-  MATERY_MENU_TAG: true, // 显示标签
-  MATERY_MENU_ARCHIVE: true, // 显示归档
-  MATERY_MENU_SEARCH: true, // 显示搜索
+  MATERY_MENU_CATEGORY: false, // 显示分类
+  MATERY_MENU_TAG: false, // 显示标签
+  MATERY_MENU_ARCHIVE: false, // 显示归档
+  MATERY_MENU_SEARCH: false, // 显示搜索
 
   MATERY_POST_LIST_COVER: true, // 文章封面
   MATERY_POST_LIST_SUMMARY: true, // 文章摘要
@@ -23,7 +23,7 @@ const CONFIG = {
   MATERY_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
   MATERY_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
-  MATERY_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
+  MATERY_WIDGET_LATEST_POSTS: false, // 显示最新文章卡
   MATERY_WIDGET_ANALYTICS: false, // 显示统计卡
   MATERY_WIDGET_TO_TOP: true,
   MATERY_WIDGET_TO_COMMENT: false, // 跳到评论区
